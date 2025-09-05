@@ -1,0 +1,35 @@
+# .clang-format
+BasedOnStyle: LLVM
+
+# 缩进设置
+IndentWidth: 4
+UseTab: Never
+TabWidth: 4
+
+# 括号风格
+BreakBeforeBraces: Attach
+
+# 对齐设置
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+# 指针和引用的对齐方式
+PointerAlignment: Right
+
+# 列宽限制
+ColumnLimit: 80
+
+# 空格设置
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeParens: Always
+SpaceBeforeRangeBasedForLoopColon: true
+
+# 控制语句格式
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# 其他设置
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
